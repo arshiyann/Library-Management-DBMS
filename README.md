@@ -24,6 +24,9 @@ Technologies Used
 
 How to Use
 
+    First Open Sqlite3 and Connect this database file to it using "Add Database" option and run Lib_DBMS.py and happy to go now!!!!!
+
+Other Method:
     Clone the repository to your local machine.
 
     bash
