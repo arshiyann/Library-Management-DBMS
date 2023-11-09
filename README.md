@@ -1,7 +1,4 @@
 # Library-Management-DBMS
-This project is a Python-based Library Management System designed to efficiently manage and organize library resources
-Library Management System with Python and DBMS
-Overview
 
 This project is a Python-based Library Management System designed to efficiently manage and organize library resources. It includes a simple and user-friendly interface for both librarians and patrons, allowing for easy book tracking, user management, and interaction with a relational database management system (DBMS).
 Features
