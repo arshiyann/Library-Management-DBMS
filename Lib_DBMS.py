@@ -27,14 +27,17 @@ def Search_Book():
     print("Enter Book Name: ",end="")
     bname = input()
     bk = book() 
+    flag = False
     for all in bk:
         all = list(all) 
         if all[1].upper() == bname.upper():
              print("****Book Is Present ******")
              print(" |No |  |Book Name|\t|Author|\t   |Publication|")
              print(" |",all[0],"|\t  |",all[1],"|\t|",all[2],"|\t|",all[3],"|")
-                  
-             break 
+             flag = True    
+             break
+    if flag == False:
+        print("*****Book Not Present******")
 
 def Student_History():
     print("Enter Roll No: ",end="")
