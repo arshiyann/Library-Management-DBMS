@@ -63,7 +63,7 @@ def Book_History():
     book = input()
     con = sqlite3.connect("lib_pro.db")
     cur = con.cursor()
-    q  = "select * from all_issue where bname = ? AND bname = ?"
+    q  = "select * from all_issue where UPPER(bname) = UPPER(?) AND UPPER(bname) = UPPER(?);"
     cur.execute(q,(book,book))
     con.commit()
     res = cur.fetchall()
